@@ -1,6 +1,6 @@
 ﻿namespace _2021_04_26_MedziagosKartojimas
 {
-    public class BKlase : BaseClass
+    public class BKlase : BaseClass, IZodisKitaip
     {
         public BKlase(string name) : base(name)
         {
@@ -15,10 +15,29 @@
             }
             return suma;
         }
-
         public override string NameMetodas()
         {
             throw new System.NotImplementedException();
         }
-    }
+
+        public string ZodisBeBalsiu()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public string ZodisBePriebalsiu()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public string ZodisSuPakeistomisBalsemis(char a)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public string ZodisSuPakeistomisPriebalsemis(int xxx)
+        {
+            throw new System.NotImplementedException();
+        }
+    }//public class BKlase : BaseClass
 }//namespace _2021_04_26_MedziagosKartojimas
