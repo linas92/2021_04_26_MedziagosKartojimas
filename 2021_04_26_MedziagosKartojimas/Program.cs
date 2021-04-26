@@ -9,7 +9,9 @@ namespace _2021_04_26_MedziagosKartojimas
         {//public static void Main(string[] args)
 
 
-
+            var aKlase = new AKlase("mama");
+            var nameMetodas = aKlase.NameMetodas();
+            Console.WriteLine(nameMetodas);
             Console.ReadLine();
             Console.WriteLine("---------------------\n\n\nGoodbye World!");
         }//public static void Main(string[] args)
