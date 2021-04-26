@@ -7,18 +7,14 @@ namespace _2021_04_26_MedziagosKartojimas
         static void Main(string[] args)
         {
 
+            BaseClass Name = new;
 
             Console.ReadLine();
             Console.WriteLine("\n\n\nGoodbye World!");
         }
     }
-    class BaseClass
+    abstract class BaseClass
     {
-        public readonly string Name { get;}
-
-        public BaseClass(string name)
-        {
-            Name = name;
-        }
+        public string Name { get; set; }
     }
 }
