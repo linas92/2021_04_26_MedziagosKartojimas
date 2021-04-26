@@ -6,7 +6,19 @@ namespace _2021_04_26_MedziagosKartojimas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+
+            Console.ReadLine();
+            Console.WriteLine("\n\n\nGoodbye World!");
+        }
+    }
+    class BaseClass
+    {
+        public readonly string Name { get;}
+
+        public BaseClass(string name)
+        {
+            Name = name;
         }
     }
 }
