@@ -2,7 +2,7 @@
 {
     public abstract class BaseClass
     {//CLASS BaseClass
-        protected BaseClass()
+        protected BaseClass(string name)
         {
             Name = Name;
         }

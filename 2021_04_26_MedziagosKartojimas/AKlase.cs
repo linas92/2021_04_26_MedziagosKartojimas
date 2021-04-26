@@ -8,6 +8,10 @@ namespace _2021_04_26_MedziagosKartojimas
 {
     public class AKlase : BaseClass
     {
+        public AKlase(string name) : base(name)
+        {
+        }
+
         public override int NameKodas(int WHATTHEFUCK)
         {
             throw new NotImplementedException();
@@ -15,7 +19,11 @@ namespace _2021_04_26_MedziagosKartojimas
 
         public override string NameMetodas()
         {
-            throw new NotImplementedException();
+            var balses = "aeėiyou".ToList();
+            foreach (var raide in Name)
+            {
+                balses.Contains(raide).ToString
+            }
         }
     }
 }
