@@ -5,7 +5,6 @@
         public BKlase(string name) : base(name)
         {
         }
-
         public override int NameKodas(int WHATTHEFUCK)
         {
             int suma = 0;
@@ -19,22 +18,23 @@
         {
             throw new System.NotImplementedException();
         }
-
         public string ZodisBeBalsiu()
         {
-            throw new System.NotImplementedException();
+            char beBalsiu = 'a';
+            foreach (var raide in Name)
+            {
+                beBalsiu -= raide * 'a';
+            }
+            return beBalsiu;
         }
-
         public string ZodisBePriebalsiu()
         {
             throw new System.NotImplementedException();
         }
-
         public string ZodisSuPakeistomisBalsemis(char a)
         {
             throw new System.NotImplementedException();
         }
-
         public string ZodisSuPakeistomisPriebalsemis(int xxx)
         {
             throw new System.NotImplementedException();
