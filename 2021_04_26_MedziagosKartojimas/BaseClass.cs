@@ -6,7 +6,6 @@
         {
             Name = Name;
         }
-
         public string Name { get; }
         public abstract string NameMetodas();
         public abstract int NameKodas(int WHATTHEFUCK);

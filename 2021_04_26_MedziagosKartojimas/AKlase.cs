@@ -11,18 +11,18 @@ namespace _2021_04_26_MedziagosKartojimas
         public AKlase(string name) : base(name)
         {
         }
-
         public override int NameKodas(int WHATTHEFUCK)
         {
             throw new NotImplementedException();
         }
-
         public override string NameMetodas()
         {
             var balses = "aeėiyou".ToList();
             foreach (var raide in Name)
             {
-                balses.Contains(raide).ToString
+                var kodas =  balses.Contains(raide)? Convert.ToInt32(raide): raide;
+
+                var naujasKodas = Convert.ToString(raide).ToString();
             }
         }
     }
