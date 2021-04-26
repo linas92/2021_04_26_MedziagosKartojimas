@@ -2,19 +2,16 @@
 
 namespace _2021_04_26_MedziagosKartojimas
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
 
-            BaseClass Name = new;
+    class Program
+    {//Class Program
+        public static void Main(string[] args)
+        {//public static void Main(string[] args)
+
+
 
             Console.ReadLine();
-            Console.WriteLine("\n\n\nGoodbye World!");
-        }
-    }
-    abstract class BaseClass
-    {
-        public string Name { get; set; }
-    }
-}
+            Console.WriteLine("---------------------\n\n\nGoodbye World!");
+        }//public static void Main(string[] args)
+    }//Class Program
+}//namespace _2021_04_26_MedziagosKartojimas
